@@ -1,0 +1,56 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #eef2f3;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #c60000;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    color: #222;
+    margin-top: 30px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Imagens centralizadas */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    border-radius: 8px;
+}
+
+/* Estilo da tabela */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+th, td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #ddd;
+}
+
+/* Seções com padding e fundo */
+#historia, #geografia, #idioma, #cultura, #dados {
+    padding: 15px;
+    background-color: #ffffff;
+    margin-top: 20px;
+    border-radius: 10px;
+}
